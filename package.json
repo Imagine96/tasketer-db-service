@@ -1,0 +1,19 @@
+{
+  "name": "dbtasketer-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.ts",
+  "files": ["src/**/*"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Imagine",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^17.0.0",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "mongoose": "^6.1.2"
+  }
+}
