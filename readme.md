@@ -13,4 +13,4 @@ Once installed the package you can import the different functionalities by named
 
 - For connect to your mongo db instance
     - connect and disconnect 
-    <img src='/assets/code samples/connect-disconnect code example.png' >
+
