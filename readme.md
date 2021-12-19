@@ -17,7 +17,7 @@ Once installed the package you can import the different functionalities by named
 + groups
 + tasks
 
-To use any of the methods, an active connection to a mongodb instance is required.
+To use any of the methods, an active connection to a mongodb instance is required, this will be skipped on the examples, just make shure you call the connect method before anything related with the tasketer service.
 
 ### For connect to your mongo db instance
 
