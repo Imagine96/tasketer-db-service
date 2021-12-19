@@ -1,10 +1,16 @@
 {
   "name": "dbtasketer-service",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple tool implementation to controll tasks and workflows inside groups of users. ",
   "main": "src/index.ts",
-  "files": ["src/**/*"],
-  "keywords": ["team work organizer", "groups to do", "to do"],
+  "files": [
+    "src/**/*"
+  ],
+  "keywords": [
+    "team work organizer",
+    "groups to do",
+    "to do"
+  ],
   "repository": {
     "url": "https://github.com/Imagine96/tasketer-db-service.git"
   },
