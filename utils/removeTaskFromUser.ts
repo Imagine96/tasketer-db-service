@@ -1,5 +1,5 @@
-import { Task } from "../../../ts/task_type"
-import { UserInfo } from "../../../ts/userInfo_type"
+import { Task } from "../ts/task_type"
+import { UserInfo } from "../ts/userInfo_type"
 
 export const removeTaskFromUser = (user: UserInfo, taskToRemove: Task) => {
 

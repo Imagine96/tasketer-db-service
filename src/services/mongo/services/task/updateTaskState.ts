@@ -1,4 +1,4 @@
-import { TaskStateUpdateAllowedFields } from '../../../../ts/task_type'
+import { TaskStateUpdateAllowedFields } from '../../../../../ts/task_type'
 import taskModel from '../../models/taskModel'
 
 

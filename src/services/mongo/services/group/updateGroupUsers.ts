@@ -1,4 +1,4 @@
-import { Group } from "../../../../ts/group_type"
+import { Group } from "../../../../../ts/group_type"
 import groupModel from "../../models/groupModel"
 
 export default async (group_id: string | string[], usersUpdate: string[]) => {

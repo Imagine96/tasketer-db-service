@@ -1,4 +1,4 @@
-import { Group } from "../../../../ts/group_type";
+import { Group } from "../../../../../ts/group_type";
 
 const onGroupPreUpdateValidations = (doc: Group) => {
     if(doc.closed){

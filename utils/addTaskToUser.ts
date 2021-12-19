@@ -1,5 +1,5 @@
-import userModel from "../models/userModel";
-import { UserInfo } from "../../../ts/userInfo_type";
+import userModel from "../src/services/mongo/models/userModel";
+import { UserInfo } from "../ts/userInfo_type";
 
 export const addTaskToUser = async ( task_id: string, user_id: string) => {
 

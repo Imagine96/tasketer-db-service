@@ -1,5 +1,5 @@
 import groupModel from "../../models/groupModel"
-import { Group } from "../../../../ts/group_type"
+import { Group } from "../../../../../ts/group_type"
 
 export default async (groupName: string, owner_id: string) => {
 
