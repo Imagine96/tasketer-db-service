@@ -1,9 +1,13 @@
 {
   "name": "dbtasketer-service",
   "version": "1.0.0",
-  "description": "",
+  "description": "logic for  ",
   "main": "src/index.ts",
   "files": ["src/**/*"],
+  "keywords": ["team work organizer", "groups to do", "to do"],
+  "repository": {
+    "url": "https://github.com/Imagine96/tasketer-db-service.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
