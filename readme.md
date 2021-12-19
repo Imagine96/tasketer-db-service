@@ -6,3 +6,11 @@ A simple tool implementation to controll tasks and workflows inside groups of us
 
 -Typescript
 -Mongoose
+
+## Usage
+
+Once installed the package you can import the different functionalities by named import.
+
+- For connect to your mongo db instance
+    - connect and disconnect 
+    <img src='/assets/code samples/connect-disconnect code example.png' >

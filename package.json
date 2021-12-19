@@ -1,7 +1,7 @@
 {
   "name": "dbtasketer-service",
   "version": "1.0.0",
-  "description": "logic for  ",
+  "description": "A simple tool implementation to controll tasks and workflows inside groups of users. ",
   "main": "src/index.ts",
   "files": ["src/**/*"],
   "keywords": ["team work organizer", "groups to do", "to do"],
