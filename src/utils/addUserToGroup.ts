@@ -1,5 +1,5 @@
 import { Group } from "../ts/group_type";
-import groupModel from "../src/services/mongo/models/groupModel";
+import groupModel from "../services/mongo/models/groupModel";
 
 export const addUserToGroup = async (_doc: any, user_id?: string) => {
 

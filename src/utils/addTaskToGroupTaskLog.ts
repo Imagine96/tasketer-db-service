@@ -1,4 +1,4 @@
-import groupModel from "../src/services/mongo/models/groupModel"
+import groupModel from "../services/mongo/models/groupModel"
 import { Group } from "../ts/group_type"
 
 export const addTaskToGroupTaskLog = async (group_id: string, task_id: string) => {

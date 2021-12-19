@@ -1,4 +1,4 @@
-import { UserInfo, UserInfoAllowedUpdateFields } from "../../../../../ts/userInfo_type"
+import { UserInfo, UserInfoAllowedUpdateFields } from "../../../../ts/userInfo_type"
 import userModel from "../../models/userModel"
 
 export default async (user_id: string | string[], data: any) => {

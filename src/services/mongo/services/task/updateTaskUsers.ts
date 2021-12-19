@@ -1,4 +1,4 @@
-import { TaskUsersUpdateAllowedFields } from '../../../../../ts/task_type'
+import { TaskUsersUpdateAllowedFields } from '../../../../ts/task_type'
 import taskModel from '../../models/taskModel'
 
 export default async (task_id: string | string[], update: TaskUsersUpdateAllowedFields) => {

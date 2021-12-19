@@ -1,5 +1,5 @@
-import { Task } from "../../../../../ts/task_type"
-import { addTaskToGroupTaskLog } from "../../../../../utils/addTaskToGroupTaskLog"
+import { Task } from "../../../../ts/task_type"
+import { addTaskToGroupTaskLog } from "../../../../utils/addTaskToGroupTaskLog"
 
 const onTaskSaved = async (doc: Task) => {
     try{

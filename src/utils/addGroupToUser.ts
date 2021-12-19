@@ -1,5 +1,5 @@
 import { UserInfo } from "../ts/userInfo_type"
-import userModel from "../src/services/mongo/models/userModel"
+import userModel from "../services/mongo/models/userModel"
 
 export const addGroupToUser = async (user_id: string, groupId: string) => {
 

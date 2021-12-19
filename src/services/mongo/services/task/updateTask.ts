@@ -1,4 +1,4 @@
-import { Task, TaskDefaultAllowedFields } from "../../../../../ts/task_type"
+import { Task, TaskDefaultAllowedFields } from "../../../../ts/task_type"
 import taskModel from "../../models/taskModel"
 
 export default async (task_id: string | string[], update: TaskDefaultAllowedFields,) => {

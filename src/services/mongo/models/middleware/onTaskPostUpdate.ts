@@ -1,4 +1,4 @@
-import { Task } from "../../../../../ts/task_type";
+import { Task } from "../../../../ts/task_type";
 
 export default async () => {
     

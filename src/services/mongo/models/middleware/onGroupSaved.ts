@@ -1,6 +1,6 @@
-import { Group } from "../../../../../ts/group_type"
-import { addGroupToUser } from "../../../../../utils/addGroupToUser"
-import { addUserToGroup } from "../../../../../utils/addUserToGroup"
+import { Group } from "../../../../ts/group_type"
+import { addGroupToUser } from "../../../../utils/addGroupToUser"
+import { addUserToGroup } from "../../../../utils/addUserToGroup"
 import userModel from "../userModel"
 
 const onGroupSaved = async (doc: Group ) => {
