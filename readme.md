@@ -333,3 +333,5 @@ To delete a task, use the updateTaskState and set it in the update object the pr
 ## Utils
 
 the package comes with a number of helper methods for different scenarios. 
+
+   <img width="597" alt="Screenshot 2021-12-20 at 02 36 59" src="https://user-images.githubusercontent.com/81493770/146699916-8499c1b2-098f-463d-a98f-1a3741d6a192.png">
