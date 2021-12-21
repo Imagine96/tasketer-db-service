@@ -1,12 +1,11 @@
 {
   "name": "dbtasketer-service",
-  "version": "1.0.3",
+  "version": "1.0.31",
   "description": "A simple tool implementation to controll tasks and workflows inside groups of users. ",
-  "main": "src/index.ts",
+  "main": "index.ts",
+  "type": "commonjs",
   "files": [
-    "src/**/*",
-    "ts/**/*",
-    "utils/**/*"
+    "src/**/*"
   ],
   "keywords": [
     "team work organizer",
@@ -17,12 +16,15 @@
     "url": "https://github.com/Imagine96/tasketer-db-service.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon ./src/app.ts",
+    "ts": "rm -rf ./dist && tsc"
   },
   "author": "Imagine",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^17.0.0",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
     "typescript": "^4.5.4"
   },
   "dependencies": {
