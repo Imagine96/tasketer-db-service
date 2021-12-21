@@ -17,9 +17,9 @@ A simple tool implementation to controll tasks and workflows inside groups of us
     + username: 
         unique string, required.
     + activeTasks:
-        Arrays of task`s ids that has this user as part of its directed array, tasks that has been assigned to this user
-    + finishedTasks
-        Arrays of finished task`s ids that has this user as part of its directed array and has been finished closed task that are finished also (closed task that werent finished before clousure will be cleaned from this array )
+        Arrays of task's ids that has this user as part of its directed array, tasks that has been assigned to this user
+    + finishedTasks:
+        Arrays of finished task's ids that has this user as part of its directed array and has been finished closed task that are finished also (closed task that werent finished before clousure will be cleaned from this array )
     + groups:
         Array of group's ids that has this user as part of its users array, required.
     + userImg:
@@ -32,7 +32,7 @@ A simple tool implementation to controll tasks and workflows inside groups of us
         Id of the user that create the group (once the group is created the owner will be added to the users array), required.
     + taskLog:
         Array of the group's active tasks.
-    + finishedTaskLog
+    + finishedTaskLog:
         Array of the group's finished task and closed and finished task (closed task that werent finished before clousure will be cleaned from this array )
     + users: 
         Array of users with acces to this groups and it's tasks.
